@@ -1,0 +1,12 @@
+body{
+    font-family: Roboto, 'Space Mono', serif, 'sans serif'
+  }
+  
+  tr, td{
+    border: 1px solid #96d4d5;
+  }
+  
+  th{
+    background-color: #96d4d5;
+    font-weight: bold;
+  }
