@@ -10,3 +10,6 @@ body{
     background-color: #96d4d5;
     font-weight: bold;
   }
+  .tag, .attribute, .property{
+    background-color: #69a7964c;
+  }
