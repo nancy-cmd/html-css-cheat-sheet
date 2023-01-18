@@ -11,103 +11,129 @@
      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Inter:wght@200;300;500;600&family=Roboto:ital,wght@0,400;1,100&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+  <main>
     <section id='tables'>
-        <h1> HTML Tables </h1>
+      <h1> HTML Tables </h1>
+        <table>
+          <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+            </tr>
+          <tr>
+            <td class='tag'>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>Defines a table</td>
+          </tr>
+          <tr>
+            <td class='tag'>&lt;thead&gt;</td>
+            <td>Table Head</td>
+            <td>The set of rows defining the column headers in a table</td>
+          </tr>
+          <tr>
+            <td class='tag'>&lt;th&gt;</td>
+            <td>Head cell</td>
+            <td>Defines a header cell in a table</td>
+          </tr>
+          <tr>
+            <td class='tag'>&lt;tbody&gt;</td>
+            <td>Table body</td>
+            <td>Groups the body content in a table</td>
+          </tr>
+
+          <tr>
+            <td class='tag'>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>The table row container</td>
+          </tr>
+
+          <tr>
+            <td class='tag'>&lt;td&gt;</td>
+            <td>Table Data</td>
+            <td>The table data container</td>
+          </tr>
+          
+          
+          <tr>
+            <td class='tag'>&lt;tfoot&gt;</td>
+            <td>Table footer</td>
+            <td>The set of rows defining the footer in a table.</td>
+          </tr>
+          </table>
+      </section>
+
+       <section id='table-atrributes'>
+      <h1> Table Attributes </h1>
+        <table>
+          <tr>
+            <th>Attribute</th>
+            <th>Syntax</th>
+            <th>Description</th>
+            </tr>
+          <tr>
+            <td class='attribute'>Colspan</td>
+            <td>&lt;td colspan=<em>"number "</em>&gt;</td>
+            <td>The <span>colspan</span> atrribute defines the number of columns a cell should span </td>
+          </tr>
+          <tr>
+            <td class='attribute'>Rowspan</td>
+            <td>&lt;td rowspan=<em>"number "</em>&gt;</td>
+            <td>The <span>rowspan</span> atrribute defines the number of rows a cell should span</td>
+          </tr>
+          </table>
+      </section>
+
+       <section id='box-model'>
+      <h1> CSS box model </h1>
+      <p>The CSS box model is a box that wraps around an HTML element and controls the design and layout.</p>
+
+        <table>
+          <tr>
+            <th >Property</th>
+            <th>Syntax</th>
+            <th>Description</th>
+            </tr>
+          <tr>
+            <td class="property">box-sizing</td>
+            <td><em>div&#123;<br>  border: 1px solid blue; <br> box-sizing: border-box; <br>&#125;</em></td>
+            <td>This property lets us include the padding and border in an element's total width and height.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          </table>
+      </section>
+      <section id='pseudo-elements'>
+        <h1> CSS Pseudo-elements </h1>
+        <p>A CSS pseudo-element is used to style specific parts of an element. It can be used to style the first letter or line of an element. it can be used to insert content before , or after, the contentof an elemnent. </p>
+
           <table>
             <tr>
-              <th>Tag</th>
-              <th>Name</th>
-              <th>Description</th>
-              </tr>
-            <tr>
-              <td class='tag'>&lt;table&gt;</td>
-              <td>Table</td>
-              <td>Defines a table</td>
-            </tr>
-            <tr>
-              <td class='tag'>&lt;thead&gt;</td>
-              <td>Table Head</td>
-              <td>The set of rows defining the column headers in a table</td>
-            </tr>
-            <tr>
-              <td class='tag'>&lt;th&gt;</td>
-              <td>Head cell</td>
-              <td>Defines a header cell in a table</td>
-            </tr>
-            <tr>
-              <td class='tag'>&lt;tbody&gt;</td>
-              <td>Table body</td>
-              <td>Groups the body content in a table</td>
-            </tr>
-
-            <tr>
-              <td class='tag'>&lt;tr&gt;</td>
-              <td>Table Row</td>
-              <td>The table row container</td>
-            </tr>
-
-            <tr>
-              <td class='tag'>&lt;td&gt;</td>
-              <td>Table Data</td>
-              <td>The table data container</td>
-            </tr>
-            
-            
-            <tr>
-              <td class='tag'>&lt;tfoot&gt;</td>
-              <td>Table footer</td>
-              <td>The set of rows defining the footer in a table.</td>
-            </tr>
-            </table>
-        </section>
-
-         <section id='table-atrributes'>
-        <h1> Table Attributes </h1>
-          <table>
-            <tr>
-              <th>Attribute</th>
+              <th >Pseudo-element</th>
               <th>Syntax</th>
               <th>Description</th>
               </tr>
             <tr>
-              <td class='attribute'>Colspan</td>
-              <td>&lt;td colspan=<em>"number "</em>&gt;</td>
-              <td>The <span>colspan</span> atrribute defines the number of columns a cell should span </td>
+              <td class="element">::first-line</td>
+              <td>
+                <em>p::first-line &#123;
+                <br> color: blue; 
+                <br> font-family: serif; 
+                <br>&#125;</em>
+              </td>
+              <td>This pseudo-element is used to add a special style to the first line of a text.</td>
             </tr>
-            <tr>
-              <td class='attribute'>Rowspan</td>
-              <td>&lt;td rowspan=<em>"number "</em>&gt;</td>
-              <td>The <span>rowspan</span> atrribute defines the number of rows a cell should span</td>
-            </tr>
+           
             </table>
         </section>
-
-         <section id='box-model'>
-        <h1> CSS box model </h1>
-        <p>The CSS box model is a box that wraps around an HTML element and controls the design and layout.</p>
-
-          <table>
-            <tr>
-              <th >Property</th>
-              <th>Syntax</th>
-              <th>Description</th>
-              </tr>
-            <tr>
-              <td class="property">box-sizing</td>
-              <td><em>div&#123;<br>  border: 1px solid blue; <br> box-sizing: border-box; <br>&#125;</em></td>
-              <td>This property lets us include the padding and border in an element's total width and height.</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            </table>
-        </section>
+  </main>
+   
 </body>
 </html>

@@ -1,6 +1,10 @@
 body{
     font-family: Roboto, 'Space Mono', serif, 'sans serif'
   }
+  main {
+    max-width: 1140px;
+    margin: 50px auto;
+  }
   
   tr, td{
     border: 1px solid #96d4d5;
