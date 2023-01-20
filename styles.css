@@ -14,6 +14,7 @@ body{
     background-color: #96d4d5;
     font-weight: bold;
   }
-  .tag, .attribute, .property{
+  .tag, .attribute, .property, .element{
     background-color: #69a7964c;
+    font-weight: 200;
   }
