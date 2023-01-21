@@ -134,11 +134,39 @@
               <td class="element">::before</td>
               <td>
                 <em>h1::before &#123;
-                <br> color: blue; 
-                <br> font-family: serif; 
+                <br> content: ">"; 
                 <br>&#125;</em>
               </td>
-              <td>This pseudo-element is used to add a special style to the first line of a text.</td>
+              <td>This pseudo-element is used to insert some content before the content of an element.</td>
+            </tr>
+            <tr>
+              <td class="element">::after</td>
+              <td>
+                <em>h1::after &#123;
+                <br> content: url(smiley.gif); 
+                <br>&#125;</em>
+              </td>
+              <td>This pseudo-element is used to insert some content after the content of an element.</td>
+            </tr>
+            <tr>
+              <td class="element">::marker</td>
+              <td>
+                <em>::marker &#123;
+                <br> color: red; 
+                <br> font-size: 25px;
+                <br>&#125;</em>
+              </td>
+              <td>This pseudo-element selects the markers of list items. The example would make the markers of list items red in color and a font-size of 25px.</td>
+            </tr>
+            <tr>
+              <td class="element">::selection</td>
+              <td>
+                <em>::selection &#123;
+                <br> color: red; 
+                <br> background: green;
+                <br>&#125;</em>
+              </td>
+              <td>This pseudo-element matches the portion of an element that is selected by a user. The following CSS properties can be applied to <em>::selection</em>: <span>color</span>,  <span>background</span>,  <span> cursor</span>,  <span>outline.</span></td>
             </tr>
            
             </table>
